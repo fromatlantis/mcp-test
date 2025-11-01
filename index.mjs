@@ -15,7 +15,7 @@ server.tool(
     async ({ city }) => {
       // const response = await fetch(`https://api.weather.com/${city}`);
       // const data = await response.text();
-      console.log('city', city)
+      console.log('city1', city)
       return {
         content: [{ type: "text", text: `It's 90 degrees and sunny.` }]
       };
